@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #023047;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #023047;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #219ebc;
+  border-radius: 25px;
+  padding: 30px;
+}
+.container h1 {
+  font-size: 35pt;
+}
+.container .first, .container .final {
+  display: flex;
+  flex-direction: row;
+}
+.container input {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container .first {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container .first h2 {
+  margin-right: 90px;
+}
+.container .first select, .container .first input {
+  border: none;
+  background-color: #8ecae6;
+}
+.container .first .b {
+  border-left: 1px solid #023047;
+  border-right: 1px solid #023047;
+}
+.container .first input {
+  padding-left: 5px;
+}
+.container .first .z {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.container .final h2 {
+  margin-right: 30px;
+}
+.container .final select, .container .final input {
+  border: none;
+  background-color: #8ecae6;
+}
+.container .final .b {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.container .final input {
+  padding-left: 5px;
+}
+.container .final .zz {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.container button {
+  margin-top: 50px;
+  background-color: #FFB703;
+  color: #023047;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  font-size: 15pt;
+}
+.container button:hover {
+  background-color: #ffd874;
+  color: #046a9c;
+  cursor: pointer;
+}
+.container .h2-wrapper {
+  display: block;
+  margin-top: 50px;
+}
+.container .nula {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

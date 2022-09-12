@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+$prva:#023047;
+$druga:#219ebc;
+$tri:#8ecae6;
+$cetiri:#FFB703;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:$prva;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: $prva;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: $druga;
+    border-radius: 25px;
+    padding: 30px;
+    h1{
+        font-size: 35pt;
+    }
+    .first,.final{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .first{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        h2{
+            margin-right: 90px;
+        }
+        select,input{
+            border: none;
+            background-color: $tri;
+        }
+        .b{
+            border-left: 1px solid $prva;
+            border-right: 1px solid $prva;
+        }
+        input{
+            padding-left: 5px;
+        }
+        .z{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    }
+    .final{
+        h2{
+            margin-right: 30px;
+        }
+        select,input{
+            border: none;
+            background-color: $tri;
+        }
+        .b{
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        input{
+            padding-left: 5px;
+        }
+        .zz{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    }
+    button{
+        margin-top: 50px;
+        background-color: $cetiri;
+        color:$prva;
+        border: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+        font-size: 15pt;
+        &:hover{
+            background-color: #ffd874;
+            color:#046a9c;
+            cursor: pointer;
+        }
+    }
+    .h2-wrapper{
+        display: block;
+        margin-top: 50px;
+    }
+    .nula{
+        display: none;
+    }
+}
